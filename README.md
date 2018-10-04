@@ -1,9 +1,9 @@
 # Hillary_Clinton_and_Donald_Trump_Tweets_Analysis
-Analysis of tweets from the major party candidates for the 2016 US Presidential Election.
-Introduction
+Analysis of tweets from the major party candidates for the 2016 US Presidential Election.<\br>
+Introduction<\br>
 For our project we classified tweets of Donald Trump and Hillary Clinton during the 2016
 elections. We created graphs, bigrams, and a prediction method that determines the probability of
-the tweet whether it is written by Trump or Hillary.
+the tweet whether it is written by Trump or Hillary.<\br>
 Dataset Description
 We used the dataset: https://www.kaggle.com/benhamner/clinton-trump-tweets
 This dataset provides ~3000 recent tweets and retweets from Hillary Clinton and Donald Trump,
