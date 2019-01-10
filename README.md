@@ -1,11 +1,9 @@
-# Hillary_Clinton_and_Donald_Trump_Tweets_Analysis
-Analysis of tweets from the major party candidates for the 2016 US Presidential Election.<br/>
-Introduction<br/>
+## Introduction<br/>
 For our project we classified tweets of Donald Trump and Hillary Clinton during the 2016
 elections. We created graphs, bigrams, and a prediction method that determines the probability of
 the tweet whether it is written by Trump or Hillary.<br/>
 
-Dataset Description<br/>
+## Dataset Description<br/>
 We used the dataset: https://www.kaggle.com/benhamner/clinton-trump-tweets<br/>
 This dataset provides ~3000 recent tweets and retweets from Hillary Clinton and Donald Trump,
 the two major-party presidential nominees during the US Election, from January until September
@@ -15,7 +13,7 @@ retweet, amount of likes, amount of retweets, the device the tweet was sent from
 location of the tweet. The information used for this project was the text of the tweet, who
 tweeted it, and whether or not it was a retweet.<br/>
 
-Baseline approach description<br/>
+## Baseline approach description<br/>
 <p align="center">
   <img width="460" height="250" src="https://github.com/AlbertSugi/Hillary_Clinton_and_Donald_Trump_Tweets_Analysis/blob/master/NLPFinalProject/newdonaldbigram.png"><br/>
 fig.1 <br/>
@@ -60,7 +58,7 @@ After that we used the CountVectorizer to convert the messages into a sparse mat
 counts and also used the TF-IDF(Term frequency-inverse document frequency) to apply term
 frequency inverse document frequency normalization to the sparse matrix we just created.<br/>
 
-Method description<br/>
+## Method description<br/>
 We then first created three different pipelines that included 3 different classification models,
 which included a Decision Tree, Multinomial Naive Bayes, and an ensemble Random Forest.
 Using each of the 3 different pipelines we then ran a grid search using the training data to find
@@ -87,7 +85,7 @@ Finally a ROC was plotted to show the accuracy comparison of each of the classif
 visualize the results. Also a confusion matrix for each classifier was also made to show the fpr,
 tpr for each classifier as shown in (fig.7,8,9)<br/>
 
-Evaluation<br/>
+## Evaluation<br/>
 Looking at the results we can see that out of the 3 classifiers we tested on our data set the
 Multinomial Naives Bayes outperformed the rest with a test accuracy of 93.61%. While both the
 ensemble Random forest and decision tree models were only giving us an accuracy of 87.44%
@@ -106,7 +104,7 @@ Lastly, we put an input line where we can test if our input tweet is how much re
 trump or Hillary. This will predict the users tweet and tell you how much it is accurate to each
 candidate.<br/>
 
-Discussion<br/><br/>
+## Discussion<br/><br/>
 This project shows that it is possible to predict who tweeted a certain tweet, based on their past
 tweets. By analyzing the language of the past tweets, it is possible to predict whether a tweet is
 written by Hillary Clinton or Donald Trump. These individuals have words that they use
@@ -126,7 +124,7 @@ To improve the model accuracy we could also have used neural networks but due to
 computing power we were not able to. Also, some of the hyperparameters for the tree models
 could have been changed to find the most optimized parameter. Which also we could not
 perform due to lack of computer power.<br/>
-Conclusion<br/>
+## Conclusion<br/>
 In conclusion, for the twitter dataset we used the best classification model, which was the
 Multinomial Naive Bayes with the default hyperparameters. Although the decision tree and
 random forest did fairly good, it did not perform as well as the MNB. The reason behind this
