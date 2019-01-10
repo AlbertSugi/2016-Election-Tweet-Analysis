@@ -104,7 +104,7 @@ Lastly, we put an input line where we can test if our input tweet is how much re
 trump or Hillary. This will predict the users tweet and tell you how much it is accurate to each
 candidate.<br/>
 
-## Discussion<br/><br/>
+## Discussion
 This project shows that it is possible to predict who tweeted a certain tweet, based on their past
 tweets. By analyzing the language of the past tweets, it is possible to predict whether a tweet is
 written by Hillary Clinton or Donald Trump. These individuals have words that they use
