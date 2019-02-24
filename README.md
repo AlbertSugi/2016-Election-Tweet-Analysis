@@ -95,7 +95,7 @@ Clinton was 0.94 and for Donald Trump was 0.92. Likewise, the recall scores were
 of the candidates. Therefore, based on the result we can conclude that our classifier is predicting
 relevant data more then 90% of the time.<br/>
 <p align="center">
-  <img width="460" height="400" src="https://github.com/AlbertSugiPictures/blob/master/ROC_Plot.png"><br/>
+  <img width="460" height="400" src="https://github.com/AlbertSugi/Pictures/blob/master/ROC_Plot.png"><br/>
 fig.10<br/>
 </p>
 An ROC plot was plotted to give a visualization of each of the accuracies. Which shows that
