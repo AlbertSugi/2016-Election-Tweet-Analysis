@@ -15,19 +15,19 @@ tweeted it, and whether or not it was a retweet.<br/>
 
 ## Baseline approach description<br/>
 <p align="center">
-  <img width="460" height="250" src="https://github.com/AlbertSugi/Pictures/newdonaldbigram.png"><br/>
+  <img width="460" height="250" src="https://github.com/AlbertSugi/Pictures/blob/master/newdonaldbigram.png"><br/>
 fig.1 <br/>
 </p>
 <p align="center">
-  <img width="460" height="250" src="https://github.com/AlbertSugi/Pictures/newdonalduni.png"><br/>
+  <img width="460" height="250" src="https://github.com/AlbertSugi/Pictures/blob/master/newdonalduni.png"><br/>
 fig.2 <br/>
 <p align="center">
-  <img width="460" height="250" src="https://github.com/AlbertSugi/Pictures/newhillbig.png"><br/>
+  <img width="460" height="250" src="https://github.com/AlbertSugi/Pictures/blob/master/newhillbig.png"><br/>
 fig.3 <br/>
 </p>
 </p>
 <p align="center">
-  <img width="460" height="250" src="https://github.com/AlbertSugi/Pictures/newhillunigram.png"><br/>
+  <img width="460" height="250" src="https://github.com/AlbertSugi/Pictures/blob/master/newhillunigram.png"><br/>
 fig.4 <br/>
 </p><br/>
 
@@ -36,11 +36,11 @@ out and cleaned each sentences. For preliminary data analysis, we cleaned the se
 regional expressions and found the most common unigrams and bigrams for Donald Trump and
 Hillary Clinton (fig.1,2,3,4).<br/>
 <p align="center">
-  <img width="460" height="250" src="https://github.com/AlbertSugi/Pictures/donaldcloud.png"><br/>
+  <img width="460" height="250" src="https://github.com/AlbertSugi/Pictures/blob/master/donaldcloud.png"><br/>
 fig.5 Donald Trump Tweet Analysis WordCloud <br/>
 </p>
 <p align="center">
-  <img width="460" height="250" src="https://github.com/AlbertSugi/Pictures/hillarycloud.png"><br/>
+  <img width="460" height="250" src="https://github.com/AlbertSugi/Pictures/blob/master/hillarycloud.png"><br/>
 fig.6 Hillary Clinton Tweet Analysis WordCloud <br/>
 </p><br/>
 
@@ -68,15 +68,15 @@ refitted and we used core parallelization which was running on all cores to make
 time faster. The scoring optimization was done using accuracy. And finally a stratifiedKFold was
 performed using 10 folds.<br/>
 <p align="center">
-  <img width="460" height="350" src="https://github.com/AlbertSugi/Pictures/DTC_CM.png"><br/>
+  <img width="460" height="350" src="https://github.com/AlbertSugi/Pictures/blob/master/DTC_CM.png"><br/>
 fig.7 Decision Tree Classifier <br/>
 </p>
 <p align="center">
-  <img width="460" height="350" src="https://github.com/AlbertSugi/Pictures/MNB_CM.png"><br/>
+  <img width="460" height="350" src="https://github.com/AlbertSugi/Pictures/blob/master/MNB_CM.png"><br/>
 fig.8 Multinomial Naive Bayes Classifier<br/>
 </p>
 <p align="center">
-  <img width="460" height="350" src="https://github.com/AlbertSugi/Pictures/RFC_CM.png"><br/>
+  <img width="460" height="350" src="https://github.com/AlbertSugi/Pictures/blob/master/RFC_CM.png"><br/>
 fig.9 Random Forrest Classifier<br/>
 </p>
 Using the grid search parameter setting we performed prediction on the test data. The results
@@ -95,7 +95,7 @@ Clinton was 0.94 and for Donald Trump was 0.92. Likewise, the recall scores were
 of the candidates. Therefore, based on the result we can conclude that our classifier is predicting
 relevant data more then 90% of the time.<br/>
 <p align="center">
-  <img width="460" height="400" src="https://github.com/AlbertSugiPictures/ROC_Plot.png"><br/>
+  <img width="460" height="400" src="https://github.com/AlbertSugiPictures/blob/master/ROC_Plot.png"><br/>
 fig.10<br/>
 </p>
 An ROC plot was plotted to give a visualization of each of the accuracies. Which shows that
