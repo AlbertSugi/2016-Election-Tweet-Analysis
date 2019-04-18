@@ -1,5 +1,5 @@
 ## Introduction<br/>
-For our project we classified tweets of Donald Trump and Hillary Clinton during the 2016
+For this project we classified tweets of Donald Trump and Hillary Clinton during the 2016
 elections. We created graphs, bigrams, and a prediction method that determines the probability of
 the tweet whether it is written by Trump or Hillary.<br/>
 
